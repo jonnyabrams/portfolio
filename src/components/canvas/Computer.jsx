@@ -30,6 +30,25 @@ const Computer = () => {
 };
 
 const ComputerCanvas = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // are we on a device that's less than 500px wide?
+    const mediaQuery = window.matchMedia("(max-width: 500)");
+
+    setIsMobile(mediaQuery.matches);
+
+    // handle width changing
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+
+    return () =>
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+  }, []);
+
   return (
     <Canvas
       frameLoop="demand"
