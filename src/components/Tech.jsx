@@ -16,9 +16,9 @@ const Tech = () => {
         <h2 className={styles.sectionHeadText}>Skills</h2>
       </motion.div>
 
-      <motion.p
+      <motion.div
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] leading-[30px]"
       >
         <ul className="mt-5 list-disc ml-5 flex justify-center flex-wrap space-x-8 mb-6">
           {skills.map((skill, index) => (
@@ -30,7 +30,7 @@ const Tech = () => {
             </li>
           ))}
         </ul>
-      </motion.p>
+      </motion.div>
 
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((tech) => (
