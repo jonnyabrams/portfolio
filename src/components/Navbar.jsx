@@ -43,9 +43,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
-              <NavLink exact to={`#${link.id}`} activeClassName="text-white">
-                {link.title}
-              </NavLink>
+              <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
         </ul>
@@ -74,13 +72,7 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <NavLink
-                    exact
-                    to={`#${link.id}`}
-                    activeClassName="text-white"
-                  >
-                    {link.title}
-                  </NavLink>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
             </ul>
