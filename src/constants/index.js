@@ -61,6 +61,42 @@ const services = [
   },
 ];
 
+const skills = [
+  "TypeScript",
+  "JavaScript",
+  "React",
+  "React Native",
+  "Next.js",
+  "Ruby on Rails",
+  "CSS",
+  "HTML",
+  "GraphQL",
+  "Tailwind",
+  "Sass",
+  "styled-components",
+  "PostgreSQL",
+  "MySQL",
+  "MongoDB",
+  "Node",
+  "Express",
+  "Svelte",
+  "SvelteKit",
+  "Redux",
+  "Redux Toolkit",
+  "Context API",
+  "Amazon Web Services",
+  "Figma",
+  "Elasticsearch",
+  "Jest",
+  "Cypress",
+  "Minitest",
+  "RSpec",
+  "Firebase",
+  "Supabase",
+  "Sanity CMS",
+  "Cloudinary",
+];
+
 // TODO: graphql, next.js, Jest, Cypress, minitest, RSpec, detox
 
 const technologies = [
@@ -274,4 +310,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, skills, technologies, experiences, testimonials, projects };
