@@ -11,8 +11,6 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
-console.log(experiences);
-
 // eslint-disable-next-line react/prop-types
 const ExperienceCard = ({ date, iconBg, icon, company_name, title, points }) => (
   <VerticalTimelineElement

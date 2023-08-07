@@ -41,7 +41,7 @@ const Ball = (props) => {
 // eslint-disable-next-line react/prop-types
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas frameLoop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<Loader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />
