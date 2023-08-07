@@ -7,8 +7,10 @@ import {
   typescript,
   html,
   css,
+  rails,
   reactjs,
   redux,
+  ruby,
   tailwind,
   nodejs,
   mongodb,
@@ -59,26 +61,36 @@ const services = [
   },
 ];
 
+// TODO: graphql, next.js, Jest, Cypress, minitest, RSpec, detox
+
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "Ruby",
+    icon: ruby,
+  },
+  {
+    name: "Ruby on Rails",
+    icon: rails,
   },
   {
     name: "Redux Toolkit",
