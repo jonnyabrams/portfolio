@@ -20,8 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I specialise in TypeScript, React, React Native, Next.js, Node, Ruby
-            on Rails and responsive design. Now go on, give the computer a
-            spin...
+            on Rails and responsive design.
           </p>
         </div>
       </div>

@@ -25,7 +25,6 @@ import {
   kangalivery,
   pizzacapaldi,
   scarebnb,
-  toktik,
   yourtube,
 } from "../assets";
 
@@ -304,28 +303,6 @@ const projects = [
     image: pizzacapaldi,
     source_code_link: "https://github.com/jonnyabrams/pizza-capaldi",
   },
-  {
-    name: "TokTik",
-    description:
-      "A TikTok clone using TypeScript, Next.js, Sanity CMS, Tailwind and Google OAuth.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: toktik,
-    source_code_link: "https://github.com/jonnyabrams/toktik",
-  },
-
   {
     name: "Kangalivery",
     description:
