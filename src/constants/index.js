@@ -23,9 +23,7 @@ import {
   wondr,
   bookface,
   kangalivery,
-  pizzacapaldi,
   scarebnb,
-  yourtube,
 } from "../assets";
 
 export const navLinks = [
@@ -218,9 +216,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "August 2007 - November 2007",
     points: [
-      "Reviewed comedy gigs at the Fringe for the Edinburgh Evening News",
-      "Wrote and maintained listings for live music and theatre",
-      "Sourced/conducted/transcribed interviews for local interest pieces",
+      "Reviewing comedy gigs at the Fringe for the Edinburgh Evening News",
+      "Writing and maintaining listings for live music and theatre",
+      "Sourcing, conducting and transcribing interviews for local interest pieces",
     ],
   },
 ];
@@ -232,7 +230,8 @@ const testimonials = [
     name: "Alex Jones",
     role: "Head of Product",
     company: "Wondr Medical",
-    image: "https://media.licdn.com/dms/image/C5603AQGvU5N2R6JGMg/profile-displayphoto-shrink_800_800/0/1516624822714?e=1697068800&v=beta&t=MwqfUNfQS3zpCltfjkICSWCRHL5gimnSbQ_WUcmtn_E",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQGvU5N2R6JGMg/profile-displayphoto-shrink_800_800/0/1516624822714?e=1697068800&v=beta&t=MwqfUNfQS3zpCltfjkICSWCRHL5gimnSbQ_WUcmtn_E",
   },
   {
     content:
@@ -240,7 +239,8 @@ const testimonials = [
     name: "Zacharia Curtis",
     role: "Product Designer",
     company: "Wondr Medical",
-    image: "https://media.licdn.com/dms/image/D4E03AQGPq7s0vB-s6w/profile-displayphoto-shrink_800_800/0/1689946544230?e=1697068800&v=beta&t=Nu3dafU6LAJ7Aq9hjsbIrjaJPBZHUJtXipoZjYSHJEA",
+    image:
+      "https://media.licdn.com/dms/image/D4E03AQGPq7s0vB-s6w/profile-displayphoto-shrink_800_800/0/1689946544230?e=1697068800&v=beta&t=Nu3dafU6LAJ7Aq9hjsbIrjaJPBZHUJtXipoZjYSHJEA",
   },
   {
     content:
@@ -248,7 +248,8 @@ const testimonials = [
     name: "Irina Soldatenkova",
     role: "Full-Stack Developer",
     company: "Wondr Medical",
-    image: "https://media.licdn.com/dms/image/D4E35AQHQLMz5DtblQw/profile-framedphoto-shrink_800_800/0/1690293663870?e=1692090000&v=beta&t=cBMqoYfqhwo-ThZfSGjFaMO-mV6V3VE5WTNJxI_-LRo",
+    image:
+      "https://media.licdn.com/dms/image/D4E35AQHQLMz5DtblQw/profile-framedphoto-shrink_800_800/0/1690293663870?e=1692090000&v=beta&t=cBMqoYfqhwo-ThZfSGjFaMO-mV6V3VE5WTNJxI_-LRo",
   },
   // {
   //   content:
@@ -281,27 +282,6 @@ const projects = [
     ],
     image: bookface,
     source_code_link: "https://github.com/jonnyabrams/bookface-2.0",
-  },
-  {
-    name: "Pizza Capaldi",
-    description:
-      "A Peter Capaldi-themed pizza delivery website, built using TypeScript, NextJS, MongoDB, Cloudinary and PayPal integration.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pizzacapaldi,
-    source_code_link: "https://github.com/jonnyabrams/pizza-capaldi",
   },
   {
     name: "Kangalivery",
@@ -344,27 +324,6 @@ const projects = [
     ],
     image: scarebnb,
     source_code_link: "https://github.com/jonnyabrams/splotify",
-  },
-  {
-    name: "YourTube",
-    description:
-      "A YouTube clone using the MERN stack with Firebase storage and styled-components.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: yourtube,
-    source_code_link: "https://github.com/jonnyabrams/yourtube",
   },
 ];
 
