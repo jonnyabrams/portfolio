@@ -32,9 +32,14 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import wondr from "./company/wondr.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import bookface from "./projects/bookface.png";
+import kangalivery from "./projects/kangalivery.png";
+import pizzacapaldi from "./projects/pizza-capaldi.png";
+import scarebnb from "./projects/scarebnb.png";
+import splotify from "./projects/splotify.png";
+import toktik from "./projects/toktik.png";
+import yourtube from "./projects/yourtube.png";
+import wu from "./projects/wu.png";
 
 export {
   logo,
@@ -67,8 +72,13 @@ export {
   starbucks,
   sinton,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  bookface,
+  kangalivery,
+  pizzacapaldi,
+  scarebnb,
+  splotify,
+  toktik,
+  yourtube,
+  wu,
   wondr,
 };

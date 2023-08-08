@@ -21,16 +21,22 @@ import {
   mediacorp,
   sinton,
   wondr,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  bookface,
+  kangalivery,
+  pizzacapaldi,
+  scarebnb,
+  toktik,
+  yourtube,
 } from "../assets";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "work",
@@ -146,10 +152,6 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
@@ -249,28 +251,70 @@ const testimonials = [
     company: "Wondr Medical",
     image: "https://media.licdn.com/dms/image/D4E35AQHQLMz5DtblQw/profile-framedphoto-shrink_800_800/0/1690293663870?e=1692090000&v=beta&t=cBMqoYfqhwo-ThZfSGjFaMO-mV6V3VE5WTNJxI_-LRo",
   },
-  {
-    content:
-      "Jonny's very modest and often downplays his own skills. But I've seen him step up, take on tough tasks, and knock them out of the park! Honestly, I'm excited to see where he takes his career next. Jonny is a great team player who not only brings a positive vibe but also consistently delivers.",
-    name: "Paris Monson",
-    role: "Full-Stack Developer",
-    company: "Wondr Medical",
-    image: "https://media.licdn.com/dms/image/D4E35AQGGaM3-p2-UCw/profile-framedphoto-shrink_800_800/0/1690288362664?e=1692090000&v=beta&t=GZV147ui0DJVjm2z0DjcCOIwjU1Hq50HzJhGHe8qMYM",
-  },
+  // {
+  //   content:
+  //     "Jonny's very modest and often downplays his own skills. But I've seen him step up, take on tough tasks, and knock them out of the park! Honestly, I'm excited to see where he takes his career next. Jonny is a great team player who not only brings a positive vibe but also consistently delivers.",
+  //   name: "Paris Monson",
+  //   role: "Full-Stack Developer",
+  //   company: "Wondr Medical",
+  //   image: "https://media.licdn.com/dms/image/D4E35AQGGaM3-p2-UCw/profile-framedphoto-shrink_800_800/0/1690288362664?e=1692090000&v=beta&t=GZV147ui0DJVjm2z0DjcCOIwjU1Hq50HzJhGHe8qMYM",
+  // },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Bookface",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Facebook clone using TypeScript and the PERN stack (PostgreSQL, Express, React, Node), with React Query/Context API for state management and Sass CSS.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bookface,
+    source_code_link: "https://github.com/jonnyabrams/bookface-2.0",
+  },
+  {
+    name: "Pizza Capaldi",
+    description:
+      "A Peter Capaldi-themed pizza delivery website, built using TypeScript, NextJS, MongoDB, Cloudinary and PayPal integration.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
         name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pizzacapaldi,
+    source_code_link: "https://github.com/jonnyabrams/pizza-capaldi",
+  },
+  {
+    name: "TokTik",
+    description:
+      "A TikTok clone using TypeScript, Next.js, Sanity CMS, Tailwind and Google OAuth.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
@@ -278,50 +322,72 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: toktik,
+    source_code_link: "https://github.com/jonnyabrams/toktik",
   },
+
   {
-    name: "Job IT",
+    name: "Kangalivery",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Deliveroo clone using React Native, Redux Toolkit and Tailwind.",
     tags: [
       {
-        name: "react",
+        name: "reactnative",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "reduxtoolkit",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: kangalivery,
+    source_code_link: "https://github.com/jonnyabrams/kangalivery",
   },
   {
-    name: "Trip Guide",
+    name: "ScareBnb",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Haunted house Airbnb clone built with TypeScript, Next.js, Tailwind, Heroicons, Mapbox and react-date-range.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mapbox",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: scarebnb,
+    source_code_link: "https://github.com/jonnyabrams/splotify",
+  },
+  {
+    name: "YourTube",
+    description:
+      "A YouTube clone using the MERN stack with Firebase storage and styled-components.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yourtube,
+    source_code_link: "https://github.com/jonnyabrams/yourtube",
   },
 ];
 
