@@ -23,10 +23,14 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import een from "./company/een.jpeg";
+import mediacorp from "./company/mediacorp.jpeg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import sinton from "./company/sinton.jpeg";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import wondr from "./company/wondr.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,11 +60,15 @@ export {
   tailwind,
   typescript,
   threejs,
+  een,
+  mediacorp,
   meta,
   shopify,
   starbucks,
+  sinton,
   tesla,
   carrent,
   jobit,
   tripguide,
+  wondr,
 };
