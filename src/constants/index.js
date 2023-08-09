@@ -226,21 +226,21 @@ const experiences = [
 const testimonials = [
   {
     content:
+      "Jonny proved to be great member of our team, growing in confidence as he participated in our agile product development process, and as he implemented progressively more complex product features. He was a major contributor to an SMS notification feature, and our scheduled messages system. His work was always well-produced, and he took on feedback during code reviews and incorporated it into future iterations. Jonny has great written and verbal communication skills, was a great team collaborator, and will be sorely missed.",
+    name: "Douglas Shearer",
+    role: "Head of Engineering",
+    company: "Wondr Medical",
+    image:
+      "https://media.licdn.com/dms/image/C4E03AQFtpegLKddp5g/profile-displayphoto-shrink_800_800/0/1641296256019?e=1697068800&v=beta&t=55FcfiY--TzBVkdzCBrwfYDG05EeWOMS7qyE8minUKY",
+  },
+  {
+    content:
       "Jonny's dedication and passion were evident in every task he undertook. His ability to effectively communicate complex ideas fostered seamless collaboration among team members and stakeholders. I also enjoyed his knack for spotting bugs!",
     name: "Alex Jones",
     role: "Head of Product",
     company: "Wondr Medical",
     image:
       "https://media.licdn.com/dms/image/C5603AQGvU5N2R6JGMg/profile-displayphoto-shrink_800_800/0/1516624822714?e=1697068800&v=beta&t=MwqfUNfQS3zpCltfjkICSWCRHL5gimnSbQ_WUcmtn_E",
-  },
-  {
-    content:
-      "Jonny has been fantastic to work with as a Product Designer - His quick understanding of proposed designs and consistent communication throughout the development process allowed us to release a polished and accurate version of features every time, enabling focus on rapid and iterative platform improvement.",
-    name: "Zacharia Curtis",
-    role: "Product Designer",
-    company: "Wondr Medical",
-    image:
-      "https://media.licdn.com/dms/image/D4E03AQGPq7s0vB-s6w/profile-displayphoto-shrink_800_800/0/1689946544230?e=1697068800&v=beta&t=Nu3dafU6LAJ7Aq9hjsbIrjaJPBZHUJtXipoZjYSHJEA",
   },
   {
     content:
@@ -251,6 +251,15 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/D4E35AQHQLMz5DtblQw/profile-framedphoto-shrink_800_800/0/1690293663870?e=1692090000&v=beta&t=cBMqoYfqhwo-ThZfSGjFaMO-mV6V3VE5WTNJxI_-LRo",
   },
+  //  {
+  //   content:
+  //     "Jonny has been fantastic to work with as a Product Designer - His quick understanding of proposed designs and consistent communication throughout the development process allowed us to release a polished and accurate version of features every time, enabling focus on rapid and iterative platform improvement.",
+  //   name: "Zacharia Curtis",
+  //   role: "Product Designer",
+  //   company: "Wondr Medical",
+  //   image:
+  //     "https://media.licdn.com/dms/image/D4E03AQGPq7s0vB-s6w/profile-displayphoto-shrink_800_800/0/1689946544230?e=1697068800&v=beta&t=Nu3dafU6LAJ7Aq9hjsbIrjaJPBZHUJtXipoZjYSHJEA",
+  // },
   // {
   //   content:
   //     "Jonny's very modest and often downplays his own skills. But I've seen him step up, take on tough tasks, and knock them out of the park! Honestly, I'm excited to see where he takes his career next. Jonny is a great team player who not only brings a positive vibe but also consistently delivers.",
