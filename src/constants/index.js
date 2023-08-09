@@ -323,7 +323,7 @@ const projects = [
       },
     ],
     image: scarebnb,
-    source_code_link: "https://github.com/jonnyabrams/splotify",
+    source_code_link: "https://github.com/jonnyabrams/scarebnb",
   },
 ];
 

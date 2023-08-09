@@ -16,7 +16,11 @@ const ProjectCard = ({
   image,
   source_code_link,
 }) => (
-  <motion.div variants={fadeIn("right", "spring", index * 0.5, 0.75)}>
+  <motion.div
+    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    onClick={() => window.open(source_code_link, "_blank")}
+    className="cursor-pointer"
+  >
     <Tilt
       options={{ max: 45, scale: 1, speed: 450 }}
       className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
@@ -28,10 +32,7 @@ const ProjectCard = ({
           className="w-full h-full object-cover rounded-2xl"
         />
         <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-          <div
-            onClick={() => window.open(source_code_link, "_blank")}
-            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-          >
+          <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
             <img
               src={github}
               alt="GitHub"
@@ -68,9 +69,9 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
           I learned so much building these projects, and I had an absolute blast
-          too. Click on the link to a project&apos;s GitHub repository to browse
-          the source code and view a video demo. Some of them even contain a
-          link to a deployed version.
+          too. Click on a project to visit its GitHub repository if you&apos;d
+          like to browse the source code and see a video demo. Some of them even
+          contain a link to a deployed version.
           <br />
           <br />
           This is only a selection, mind you! For a more comprehensive list of
