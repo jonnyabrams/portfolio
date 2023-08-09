@@ -43,7 +43,7 @@ const About = () => {
       >
         A career-switcher from the world of online sports writing, I&apos;m a
         full-stack developer looking for a second professional role following
-        seven amazing months at digital health platform Wondr Medical, who had
+        eight amazing months at digital health platform Wondr Medical, who had
         to make the vast majority of us redundant after hitting a funding
         roadblock.
         <br />

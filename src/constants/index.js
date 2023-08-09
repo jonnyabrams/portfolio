@@ -251,23 +251,36 @@ const testimonials = [
     image:
       "https://media.licdn.com/dms/image/D4E35AQHQLMz5DtblQw/profile-framedphoto-shrink_800_800/0/1690293663870?e=1692090000&v=beta&t=cBMqoYfqhwo-ThZfSGjFaMO-mV6V3VE5WTNJxI_-LRo",
   },
-  //  {
-  //   content:
-  //     "Jonny has been fantastic to work with as a Product Designer - His quick understanding of proposed designs and consistent communication throughout the development process allowed us to release a polished and accurate version of features every time, enabling focus on rapid and iterative platform improvement.",
-  //   name: "Zacharia Curtis",
-  //   role: "Product Designer",
-  //   company: "Wondr Medical",
-  //   image:
-  //     "https://media.licdn.com/dms/image/D4E03AQGPq7s0vB-s6w/profile-displayphoto-shrink_800_800/0/1689946544230?e=1697068800&v=beta&t=Nu3dafU6LAJ7Aq9hjsbIrjaJPBZHUJtXipoZjYSHJEA",
-  // },
-  // {
-  //   content:
-  //     "Jonny's very modest and often downplays his own skills. But I've seen him step up, take on tough tasks, and knock them out of the park! Honestly, I'm excited to see where he takes his career next. Jonny is a great team player who not only brings a positive vibe but also consistently delivers.",
-  //   name: "Paris Monson",
-  //   role: "Full-Stack Developer",
-  //   company: "Wondr Medical",
-  //   image: "https://media.licdn.com/dms/image/D4E35AQGGaM3-p2-UCw/profile-framedphoto-shrink_800_800/0/1690288362664?e=1692090000&v=beta&t=GZV147ui0DJVjm2z0DjcCOIwjU1Hq50HzJhGHe8qMYM",
-  // },
+];
+
+const moreTestimonials = [
+  {
+    content:
+      "Jonny has been fantastic to work with as a Product Designer - His quick understanding of proposed designs and consistent communication throughout the development process allowed us to release a polished and accurate version of features every time, enabling focus on rapid and iterative platform improvement.",
+    name: "Zacharia Curtis",
+    role: "Product Designer",
+    company: "Wondr Medical",
+    image:
+      "https://media.licdn.com/dms/image/D4E03AQGPq7s0vB-s6w/profile-displayphoto-shrink_800_800/0/1689946544230?e=1697068800&v=beta&t=Nu3dafU6LAJ7Aq9hjsbIrjaJPBZHUJtXipoZjYSHJEA",
+  },
+  {
+    content:
+      "It's honestly been a huge pleasure working with Jonny over the last 8 months. It's great to have someone on the team with exceptional communication skills with a touch of humor that creates a friendly environment. If like me you like to work with developers that take pride in the style and cleanliness of code, then don't hesitate to hire Jonny, he will add more than just his technical knowledge to a team.",
+    name: "Frank Mckenna",
+    role: "Full-Stack Developer",
+    company: "Wondr Medical",
+    image:
+      "https://media.licdn.com/dms/image/D4E35AQF2OemI0zedkw/profile-framedphoto-shrink_800_800/0/1690204254378?e=1692169200&v=beta&t=iRila62o_GHaUCflUroMExiKYYEo-qXuTjTfJctFdr4",
+  },
+  {
+    content:
+      "Jonny's very modest and often downplays his own skills. But I've seen him step up, take on tough tasks, and knock them out of the park! Honestly, I'm excited to see where he takes his career next. Jonny is a great team player who not only brings a positive vibe but also consistently delivers.",
+    name: "Paris Monson",
+    role: "Full-Stack Developer",
+    company: "Wondr Medical",
+    image:
+      "https://media.licdn.com/dms/image/D4E35AQGGaM3-p2-UCw/profile-framedphoto-shrink_800_800/0/1690288362664?e=1692090000&v=beta&t=GZV147ui0DJVjm2z0DjcCOIwjU1Hq50HzJhGHe8qMYM",
+  },
 ];
 
 const projects = [
@@ -336,4 +349,4 @@ const projects = [
   },
 ];
 
-export { services, skills, technologies, experiences, testimonials, projects };
+export { services, skills, technologies, experiences, testimonials, moreTestimonials, projects };
